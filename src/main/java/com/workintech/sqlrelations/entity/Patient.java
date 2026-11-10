@@ -16,5 +16,6 @@ public class Patient {
     private String name;
     private String surname;
     private String email;
+    @Column(columnDefinition = "text")
     private String complaint;
 }
